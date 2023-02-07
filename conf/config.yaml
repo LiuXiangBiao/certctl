@@ -1,0 +1,7 @@
+domains_file_path: /root/domains
+distance_day_time: 7
+certbot_config_file_path: /mnt/certbot/credentials.ini
+accessKeyId: dsfhgdfhfdhsadtd
+accessKeySecret: dfhdsfhfdsjdsfhgdsh
+token: f4de0ca30038d12d46d054dfc4ce3fea0624664a2621398a0f225adaa6b51d56
+secret: SEC687aefffd3bbda62b182fb214909325390be7fd3f966ce536843d584253236f5
