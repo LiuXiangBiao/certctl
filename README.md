@@ -33,18 +33,21 @@ distance_day_time: 证书到期距离今日的天数
 certbot_config_file_path: certbot的aksk配置文件
 accessKeyId: ak
 accessKeySecret: sk
-token: 钉钉机器人webhook
-secret: 钉钉机器人标签
+token: 机器人webhook
+secret: 机器人标签
 ```
 
 - 编译
 ```bash
 go build -o certctl
 ```
+```bash
+mv certctl /gopath/bin/
+```
 ### 执行命令示例
 - 自动检测指定文件的一些域名 （全流程）
 ```bash
-  ./certctl  
+ certctl  
 ```
 
 #### 以下是单个流程执行命令
