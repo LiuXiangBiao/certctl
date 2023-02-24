@@ -11,7 +11,7 @@ import (
 )
 
 func CheckDomainInfo(cfg *setting.ToolConfig, domains []string) {
-	//遍历证书并监控到期时间
+	//遍历证书并监控到期时间.
 	//连接获取证书信息
 	for _, domain := range domains {
 		conn, err := tls.Dial("tcp", fmt.Sprintf("%s:443", domain), nil)
